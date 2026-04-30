@@ -1,0 +1,21 @@
+$imagesDir = "assets/images"
+$htmlDir = "assets/html"
+
+New-Item -ItemType Directory -Force -Path $imagesDir
+New-Item -ItemType Directory -Force -Path $htmlDir
+
+# Home Screen
+curl.exe -L "https://lh3.googleusercontent.com/aida/ADBb0uj1tG4mB9mhEBzCsImUxmceRh5Uz3mxaaVU_yUrwpqUH21LIYaE_m7hYNmZ9R9CMGBzCO2GLW5VwW0W3cwfhCtNWbpZYKjGbMI1jUfo0g0kUQYow6gDeN2SCjquypA2Il4eGgqeDUnlySnPLDnAGt_m87-XI532yE4FWLWoc5ID05EAuWrSu4yYMa72X3GY7mzw5hOdGhYtH4LwQuTXyNrIPLfuoevSgWa2cRsvJOCGr-v3HRo9MCP-S74" -o "$imagesDir/home_screen.png"
+curl.exe -L "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY0ZGI3ZTkxMDhmNzMwNWMyZmI5MGQyMDlmMzcxEgsSBxD8z_X5ghMYAZIBIwoKcHJvamVjdF9pZBIVQhMyMzg4Nzg2MzY4MzI0MTg0NTgx&filename=&opi=89354086" -o "$htmlDir/home_screen.html"
+
+# Wishlist Screen
+curl.exe -L "https://lh3.googleusercontent.com/aida/ADBb0uhv5I7hKMyIqcqI0Q_Pg7JmI3p7BkKe-y7zYlYBVBPUBglBLVTJae6oVzWdRNAj4X8NMzPtPzurQmtjrT_D3KunAGWu0VJlhrtHKzTFH8hgdZ5TvfchAhwhtM1aNNvc24h4piofr6ixkz4Sefj9nJsHInEEEj6QcuuhG0I_KZH7TvIUEiDGyGWbqUyHS-04eN0DRxR_rPBH3PsZMUX-SngK7zNV1lvNOhqD5YOUK9EQh8pF6GUWV89PBhU" -o "$imagesDir/wishlist_screen.png"
+curl.exe -L "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY0ZGI3ZWEyYWU4YWMwMjFlOGQ4ZDYzMmI0YzlmEgsSBxD8z_X5ghMYAZIBIwoKcHJvamVjdF9pZBIVQhMyMzg4Nzg2MzY4MzI0MTg0NTgx&filename=&opi=89354086" -o "$htmlDir/wishlist_screen.html"
+
+# Cart Screen
+curl.exe -L "https://lh3.googleusercontent.com/aida/ADBb0uhxYpfMqeVqxw3tZBgxruQUQYkO-99s_1pac5NZKtln2DwczMyatj6mBoTDSYXjVAwIl1JvuaJ-7lCYDClRHLUpVvXnvryJtfWLk27gjb2DbcpHg38BtMJmbkKqcnfFcycpHXKxDcMVkjPQ5LRsHGLlR-5qejGFw8cCRqPJloEbBDW3kTEzw-9WlaOQsTwHYKI1WvccGC4a1sdOY0Ju4HBTK1KHlNC6BxPLQr-Dmc_NKW3GPAAYAOccmQ" -o "$imagesDir/cart_screen.png"
+curl.exe -L "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE4MmQ3ZDYyOTFkYTQyMTliNGU4YzgxYWNjOWYxNjUxEgsSBxD8z_X5ghMYAZIBIwoKcHJvamVjdF9pZBIVQhMyMzg4Nzg2MzY4MzI0MTg0NTgx&filename=&opi=89354086" -o "$htmlDir/cart_screen.html"
+
+# Profile Screen
+curl.exe -L "https://lh3.googleusercontent.com/aida/ADBb0ujrdhDvbrCt_fBrXbJUb56GKP84vnQLA0NHhWy0m7YsqgAlu91DLmJHqqOwo0VoqdcJaaXt_iF_G3jYks1_F3Cwk4Xed9CajAJgte7cvXfv6FOFRNquRadiPUq7uVuw6_-Z8G5xL3X3qReAdt8KV5r0cR1Cb9ct7DiFLy9EgKxMbuvmg2wYVElL2yJ7rLWKqx1nmFXRQvox2w-d4EBL-pkO3MWgQm0EoABor8gszCIHvfZ0NBWLhrB5Uvg" -o "$imagesDir/profile_screen.png"
+curl.exe -L "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY0ZGI3ZWIwNDczMzIwMzM4NTIxNTM1MmI5MTA3EgsSBxD8z_X5ghMYAZIBIwoKcHJvamVjdF9pZBIVQhMyMzg4Nzg2MzY4MzI0MTg0NTgx&filename=&opi=89354086" -o "$htmlDir/profile_screen.html"

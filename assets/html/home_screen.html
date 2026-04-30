@@ -1,0 +1,269 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Radiant Curator - Women's Self-Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#ffffff",
+              "surface-container-high": "#ffe2d5",
+              "on-primary-fixed": "#0c006a",
+              "on-primary-container": "#8c8bff",
+              "on-tertiary-container": "#ff6081",
+              "surface-container-lowest": "#ffffff",
+              "surface-variant": "#ffdbca",
+              "tertiary-fixed": "#ffd9dd",
+              "on-surface-variant": "#464554",
+              "secondary-fixed": "#ffd8ee",
+              "inverse-on-surface": "#ffede6",
+              "on-surface": "#331100",
+              "surface-bright": "#fff8f6",
+              "secondary-container": "#ff71d8",
+              "on-secondary-fixed": "#3b002f",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#86006f",
+              "tertiary-fixed-dim": "#ffb2bc",
+              "surface-tint": "#4e4bcf",
+              "error": "#ba1a1a",
+              "on-tertiary-fixed-variant": "#910034",
+              "primary-fixed-dim": "#c2c1ff",
+              "primary-fixed": "#e2dfff",
+              "outline-variant": "#c7c4d6",
+              "surface-container-highest": "#ffdbca",
+              "inverse-primary": "#c2c1ff",
+              "on-primary-fixed-variant": "#352fb7",
+              "error-container": "#ffdad6",
+              "surface-container-low": "#fff1eb",
+              "primary": "#0c0069",
+              "surface-container": "#ffeae0",
+              "outline": "#777585",
+              "on-secondary-container": "#72005f",
+              "primary-container": "#1a05a2",
+              "tertiary-container": "#660022",
+              "on-error": "#ffffff",
+              "on-primary": "#ffffff",
+              "secondary": "#a7238b",
+              "on-tertiary-fixed": "#400012",
+              "surface-dim": "#ffd0b9",
+              "on-secondary": "#ffffff",
+              "secondary-fixed-dim": "#ffade2",
+              "surface": "#fff8f6",
+              "inverse-surface": "#542100",
+              "background": "#fff8f6",
+              "on-background": "#331100",
+              "tertiary": "#3f0012"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .serif-headline { font-family: 'Noto Serif', serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .brand-gradient {
+            background: linear-gradient(135deg, #1A05A2 0%, #8F0177 35%, #DE1A58 70%, #F67D31 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl flex justify-between items-center px-6 h-16 w-full no-border tonal-shift bg-stone-50/50 dark:bg-stone-800/50">
+<button class="hover:opacity-70 transition-opacity scale-95 duration-200" style="">
+<span class="material-symbols-outlined text-indigo-900 dark:text-indigo-400" style="">menu</span>
+</button>
+<h1 class="text-2xl font-serif text-indigo-900 dark:text-indigo-300 tracking-tight italic" style="">WSelfCare</h1>
+<button class="hover:opacity-70 transition-opacity scale-95 duration-200" style="">
+<span class="material-symbols-outlined text-indigo-900 dark:text-indigo-400" style="">search</span>
+</button>
+</header>
+<main class="pt-20">
+<!-- Hero Visual / Brand Gradient Background -->
+<div class="brand-gradient w-full h-[300px] absolute top-0 left-0 -z-10 opacity-20 blur-[80px]"></div>
+<!-- Horizontal Scrolling Product Categories -->
+<section class="mt-4 px-6">
+<div class="flex overflow-x-auto hide-scrollbar gap-4 py-4">
+<div class="flex-shrink-0 flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl" style="">spa</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" style="">Skincare</span>
+</div>
+<div class="flex-shrink-0 flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl" style="">self_care</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" style="">Wellness</span>
+</div>
+<div class="flex-shrink-0 flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl" style="">air</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" style="">Fragrance</span>
+</div>
+<div class="flex-shrink-0 flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl" style="">face_3</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" style="">Beauty</span>
+</div>
+<div class="flex-shrink-0 flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl" style="">sanitizer</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" style="">Body</span>
+</div>
+</div>
+</section>
+<!-- Section 1: Best Selling Products Carousel -->
+<section class="mt-12">
+<div class="px-6 flex justify-between items-end mb-6">
+<div>
+<h2 class="serif-headline text-3xl text-primary leading-tight" style="">Best Sellers</h2>
+<p class="text-on-surface-variant text-sm mt-1" style="">Beloved by our community</p>
+</div>
+<button class="text-primary font-bold text-xs tracking-widest uppercase hover:opacity-70" style="">View All</button>
+</div>
+<div class="flex overflow-x-auto hide-scrollbar gap-6 px-6 pb-4">
+<!-- Product Card 1 -->
+<div class="flex-shrink-0 w-64 bg-surface-container-lowest rounded-md overflow-hidden transition-transform duration-200 active:scale-95 group">
+<div class="relative h-80 overflow-hidden rounded-md">
+<img alt="Luxury facial oil" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close-up of a glass facial oil bottle on a soft peach reflective surface with warm afternoon sunlight and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB0HWVacHPZNBd0suOff9KHlENoab4VCNwSCK_nGMssqoX3Fd31xf-Ki3HxtbE4fZfyiVHIq-f7Rpw7Sv1S4IIIyXDtA2LjS000GSoC0KweyIn-h9AmoK-05Gw7nd1efetWWeFvBg3zUeXLWQ3azX3SymZsbQsFPiJRvVXELMkbM10y4RmIFZ_nCYuJjsrRE6RF83zRid27Zsj6m-JKzsQg-esiephF0Iyvo5cmBvhw2QcabCsOC1Is7HqRqIyQfDDl2hW_XO4Nko" style="">
+<button class="absolute top-4 right-4 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-primary" style="">
+<span class="material-symbols-outlined" style="">favorite</span>
+</button>
+</div>
+<div class="pt-4 px-2">
+<h3 class="font-headline italic text-lg text-on-surface" style="">Radiance Elixir</h3>
+<div class="flex justify-between items-center mt-1">
+<p class="text-on-surface-variant text-sm" style="">Aromatic Facial Oil</p>
+<p class="font-headline text-primary font-bold" style="">$74</p>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="flex-shrink-0 w-64 bg-surface-container-lowest rounded-md overflow-hidden transition-transform duration-200 active:scale-95 group">
+<div class="relative h-80 overflow-hidden rounded-md">
+<img alt="Premium candle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury scented candle in a textured ceramic jar placed on a minimalist wooden tray with dried lavender stems" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-qpl9ywIc07w_knxQoBO5sjRqYzF8z0NpOpZILOR_PzfW_hN82T-Ve7e06qqgSckLDtf8BWGhcsdVOldKLMmqQzcm8sDuqbgwF_Yg5Cvdy_ab6q43XPNoXWgKVVfgnWJghfoPEVIcSHoTahtoA9ndHtPiDux2nXgs3RvXTef1rmUgV_hIVHfugYYMMLdCIzDvAxZkZjTW3gV2S4a32NBpW5o9TF-rklAhZmhbw2qxZtTSvgbs6lpnSFAigVhqRivxbXSAPiXM2is" style="">
+<button class="absolute top-4 right-4 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-primary" style="">
+<span class="material-symbols-outlined" style="">favorite</span>
+</button>
+</div>
+<div class="pt-4 px-2">
+<h3 class="font-headline italic text-lg text-on-surface" style="">Twilight Bloom</h3>
+<div class="flex justify-between items-center mt-1">
+<p class="text-on-surface-variant text-sm" style="">Soy Wax Candle</p>
+<p class="font-headline text-primary font-bold" style="">$42</p>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="flex-shrink-0 w-64 bg-surface-container-lowest rounded-md overflow-hidden transition-transform duration-200 active:scale-95 group">
+<div class="relative h-80 overflow-hidden rounded-md">
+<img alt="Velvet pouch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elegant velvet cosmetic pouch in deep burgundy laying on a marble surface with soft golden jewelry accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDyWaOHgHjvj2VCt-kaGP2lrER6gT0N9SB3ivuB64q-IbztcZjg4CbNlN6r5sZAiDBo2GeMf-GIHLNOekkVxcMA-S6UZVMy1H9KGf01oil7dOSrTx1phWDynurIKu84uU9SRVzZoszTLb4sUtRl4IO5_aGWAtXMSR0zS_B12RO0TCxSkRJIETI6PeOdtzSlO4pC_pJkZM3DDNTLCDxIhdGz-mrI0mp4Cygk_RSPkfITn8_hWnks1OUzLvpJ8IPB9U7WIhDGDczOY8" style="">
+<button class="absolute top-4 right-4 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-primary" style="">
+<span class="material-symbols-outlined" style="">favorite</span>
+</button>
+</div>
+<div class="pt-4 px-2">
+<h3 class="font-headline italic text-lg text-on-surface" style="">The Muse Kit</h3>
+<div class="flex justify-between items-center mt-1">
+<p class="text-on-surface-variant text-sm" style="">Luxury Travel Set</p>
+<p class="font-headline text-primary font-bold" style="">$120</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Featured Products (IWD Special) -->
+<section class="mt-16 px-6">
+<div class="mb-8">
+<span class="text-[10px] font-bold tracking-[0.2em] uppercase text-secondary" style="">Limited Edition</span>
+<h2 class="serif-headline text-4xl text-primary mt-2" style="">Celebrate You</h2>
+<p class="text-on-surface-variant mt-2 max-w-xs" style="">Curated by women, for women. Elevate your ritual with our exclusive IWD collection.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<!-- Large High-Impact Card 1 -->
+<div class="relative rounded-xl overflow-hidden group h-[500px] flex flex-col justify-end p-8">
+<img alt="Model with serum" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 -z-10" data-alt="Stunning portrait of a woman with radiant skin in soft focus, holding a serum dropper with warm golden hour light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2hK_QdFedIQ_lL-H395QxTB6IIv6yAvQtMl8PbUCp6OiqTvSHMfJAEeq158X59dAU3aTCYdrGca5kz0A1K3vhaQJ5r0AVCASFoMGo4RhMvwz9-UCW0f2s4ZlUWsx0ooYqVBA6HaLAfkVu-OSXcJtWMZ5oElycajEenDQZiyW_VoI9-3wvoi76b4g3aeWBQLLPmqqV6Flqscy872obPiaKwd0UdmOl-UEx-bGOUEe1zZR3FO-5dnHxkt-WqQ6c4emjHwy8Murpijg" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent -z-10"></div>
+<div class="text-white">
+<h3 class="font-headline text-3xl italic mb-2" style="">The Glow Collective</h3>
+<p class="text-white/80 mb-6 text-sm" style="">Three award-winning serums designed to unlock your natural radiance.</p>
+<button class="bg-gradient-to-r from-secondary to-[#F67D31] text-white px-8 py-4 rounded-full font-bold text-sm tracking-widest uppercase flex items-center gap-2 w-fit" style="">
+                            Shop The Collection
+                            <span class="material-symbols-outlined text-sm" style="">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Bento Style Secondary Highlight -->
+<div class="grid grid-rows-2 gap-6">
+<div class="bg-surface-container rounded-lg p-8 flex items-center justify-between overflow-hidden relative group">
+<div class="z-10 max-w-[60%]">
+<span class="text-[10px] font-bold tracking-widest uppercase text-secondary" style="">New Arrival</span>
+<h3 class="font-headline text-2xl text-primary mt-2" style="">Silk Rituals</h3>
+<button class="mt-4 text-primary font-bold text-xs border-b border-primary pb-1" style="">Explore</button>
+</div>
+<img alt="Silk pillowcase" class="absolute -right-10 -bottom-10 w-48 h-48 object-cover rounded-full group-hover:scale-110 transition-transform duration-500" data-alt="Soft pink silk pillowcase folded neatly on a white bed with a single white lily next to it" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiBtP8RXPZYQ6lxAaq9OICm18GesS2wzUi57RI6w7JZCu9KDXC3TeoYbEUVBAISH8YxMBv0OJMZV27YGVqfP_FgvuqYcffIfIfN5MPUOA1q3ZtomR3CwbBb4aP5TztAp-RdwqHvF50P3DSiPYSOhvl8Mv1Gdd8np3QeuAfNCavMXtUI288V4aQngMdsAhSS-8bUagYJFdM70oHP8VhySFTqUTX7jMDeLP97A37upJs8LqZNRVfVhISRvFd5siTyT2xgXXpJKcH8aY" style="">
+</div>
+<div class="bg-surface-variant rounded-lg p-8 flex items-center justify-between overflow-hidden relative group">
+<div class="z-10 max-w-[60%]">
+<span class="text-[10px] font-bold tracking-widest uppercase text-on-secondary-container" style="">Community Choice</span>
+<h3 class="font-headline text-2xl text-on-secondary-container mt-2" style="">Wellness Journal</h3>
+<button class="mt-4 text-on-secondary-container font-bold text-xs border-b border-on-secondary-container pb-1" style="">Shop Now</button>
+</div>
+<img alt="Journal" class="absolute -right-10 -bottom-10 w-48 h-48 object-cover rounded-full group-hover:scale-110 transition-transform duration-500" data-alt="Open linen-covered journal with a premium pen and a sprig of eucalyptus on a light wooden desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMkMpi_F0C0lEiWEEE9sQaEZXSejf6v0CZS61ZKkxgvKAtKpwIqnHGaErq7o1pm8gRPbyqK3pUxVJPcL7PsNumBWPpNIojc6bLHuUjjLEdbHjFDH3Nf5GL8MKGj2RyTalJcFobdxJs2Ys88ow30QFxkjNFWk3-qU3QuErCAFMU9pBpcZUvWFssJT7nCB4gCWJbstOnHKCWsgVnbEX50Jv2RtwHE3fSxM8QOliyTM3YLQb7rFAxW05CZUE5VLTKl9hk6zlDOTcLYZE" style="">
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / Editorial Quote -->
+<section class="mt-20 px-6 pb-12">
+<div class="bg-surface-container-low rounded-xl p-12 text-center border border-white/20">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6" style="">auto_awesome</span>
+<p class="font-headline italic text-2xl text-primary mb-6" style="">"Self-care is not a luxury, it is a deliberate act of choosing oneself."</p>
+<div class="flex flex-col gap-4 max-w-sm mx-auto">
+<input class="bg-surface-container-lowest border-none rounded-full px-6 py-4 text-xs tracking-widest text-on-surface placeholder:text-outline text-center focus:ring-2 focus:ring-primary/20" placeholder="JOIN THE RADIANT CIRCLE" type="email">
+<button class="bg-primary text-white py-4 rounded-full font-bold text-xs tracking-widest uppercase hover:opacity-90" style="">Subscribe</button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-20 px-8 flex justify-around items-center pb-safe bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl rounded-t-[3rem] no-border shadow-[0_-4px_24px_rgba(0,0,0,0.04)] shadow-xl z-50">
+<a class="flex flex-col items-center justify-center bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-full w-12 h-12 hover:scale-110 transition-transform" href="#" style="">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 w-12 h-12 hover:scale-110 transition-transform" href="#" style="">
+<span class="material-symbols-outlined" style="">favorite</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 w-12 h-12 hover:scale-110 transition-transform" href="#" style="">
+<span class="material-symbols-outlined" style="">shopping_bag</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 w-12 h-12 hover:scale-110 transition-transform" href="#" style="">
+<span class="material-symbols-outlined" style="">person</span>
+</a>
+</nav>
+</body></html>
